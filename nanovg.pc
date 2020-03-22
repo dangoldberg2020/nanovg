@@ -1,0 +1,9 @@
+prefix=/usr
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: nanovg
+Description: Antialiased 2D vector drawing library on top of OpenGL for UI and visualizations.
+Version: 1.0
+Libs: -L${libdir} -lnanovg
+Cflags: -I${includedir}
